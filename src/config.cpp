@@ -1,7 +1,7 @@
-#include <String>
-#include "include/config.h"
+#include <string>
+#include "../include/config.h"
 
-void config::config(String title, int request){
+config::config(std::string title, int request){
   buttonTitle = title;
   requestType = request;
 
