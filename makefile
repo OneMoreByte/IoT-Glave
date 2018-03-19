@@ -5,6 +5,9 @@ BUILDDIR = build
 SOURCEDIR = src
 HEADERDIR = include
 
+RM = rm -rf
+MKDIR = mkdir
+
 CXX = g++
 
 CXXFLAGS = -Wall -g -std=c++17
@@ -21,3 +24,10 @@ $(BINARY): $(OBJECTS)
 
 $(BUILDDIR)/%.o: %.cpp
 	$(CXX) $(CXXFLAGS) -I$(HEADERDIR) -I$(dir $<) -c $< -o $@
+
+
+setup:
+	$(MKDIR) -p $(BUILDDIR)
+
+clean:
+	$(RM) $(BINARY) $(OBJECTS)
