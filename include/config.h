@@ -3,7 +3,7 @@
 #include <string>
 
 
-class config
+std::class config
 {
   public:
     config(std::string title, int request);
