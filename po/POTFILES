@@ -1,0 +1,5 @@
+data/org.gnome.Iot-Thing.desktop.in
+data/org.gnome.Iot-Thing.appdata.xml.in
+data/org.gnome.Iot-Thing.gschema.xml
+src/window.uisrc/main.py
+src/window.py
