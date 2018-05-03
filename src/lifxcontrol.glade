@@ -87,7 +87,7 @@
                   <object class="GtkLabel">
                     <property name="visible">True</property>
                     <property name="can_focus">False</property>
-                    <property name="label" translatable="yes">⏾</property>
+                    <property name="label" translatable="yes">◖</property>
                     <attributes>
                       <attribute name="scale" value="5"/>
                     </attributes>
