@@ -24,14 +24,12 @@
         <property name="visible">True</property>
         <property name="can_focus">False</property>
         <property name="orientation">vertical</property>
-        <property name="spacing">16</property>
         <property name="homogeneous">True</property>
         <property name="baseline_position">bottom</property>
         <child>
           <object class="GtkBox">
             <property name="visible">True</property>
             <property name="can_focus">False</property>
-            <property name="spacing">40</property>
             <property name="homogeneous">True</property>
             <child>
               <object class="GtkButton" id="button1">
@@ -157,7 +155,6 @@
               <packing>
                 <property name="expand">False</property>
                 <property name="fill">True</property>
-                <property name="padding">60</property>
                 <property name="position">1</property>
               </packing>
             </child>
@@ -189,7 +186,6 @@
           <packing>
             <property name="expand">False</property>
             <property name="fill">True</property>
-            <property name="padding">11</property>
             <property name="position">1</property>
           </packing>
         </child>
